@@ -24,7 +24,7 @@ h1,h2,h3,p,label {
 """, unsafe_allow_html=True)
 
 # Load dataset
-songs = pd.read_csv("songs.csv")
+songs = pd.read_csv("songs_500.csv")
 
 songs.columns = songs.columns.str.lower()
 
